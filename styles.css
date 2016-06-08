@@ -99,6 +99,7 @@ p {
 /* Body Main1 CSS*/
 #main-1 {
 	width: 20%;
+	min-width: 120px;
 	border: solid 1px red;
 	float: left;
 }
@@ -107,7 +108,7 @@ p {
 	background: green;
 	max-width: 100%;
 	min-width: 120px;
-	margin: 5vw;
+	margin: 20px auto;
 	display: inline-block;
 	border: 1px solid black;
 }
@@ -154,12 +155,13 @@ p {
 /* Body Main2 CSS*/
 #main-2 {
 	width: 80%;
+	min-width: 480px;
 	border: solid 2px red;
 	float: left;
 }
 
 #table-1 {
-	margin: 20px;
+	margin: 20px 0;
 }
 
 #table-1 #row-1 {
@@ -173,6 +175,7 @@ p {
 		border-bottom: solid 1px blue;
 		float: left;
 		width: 30%;
+		min-width: 80px;
 		padding: 10px;
 	}
 	#main-2 #table-1 .row .column-2{
@@ -186,6 +189,7 @@ p {
 		border-bottom: solid 1px blue;
 		float: left;
 		width: 70%;
+		min-width: 280px;
 		padding: 10px;
 	}
 }
