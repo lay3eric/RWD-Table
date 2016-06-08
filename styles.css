@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: Georgia, times, serif;
+	font-family: Georgia, "細明體",times, serif;
 	font-size: 20px;
 	font-weight: lighter;
 }
@@ -98,16 +98,18 @@ p {
 
 /* Body Main1 CSS*/
 #main-1 {
-	width: 25vw;
+	width: 20%;
+	border: solid 1px red;
+	float: left;
 }
 
 #menu {
 	background: green;
-	max-width: 15vw;
+	max-width: 100%;
 	min-width: 120px;
 	margin: 5vw;
 	display: inline-block;
-	border: 
+	border: 1px solid black;
 }
 
 #menu a{
@@ -151,6 +153,100 @@ p {
 }
 /* Body Main2 CSS*/
 #main-2 {
-	max-width: 75vw;
+	width: 80%;
 	border: solid 2px red;
+	float: left;
+}
+
+#table-1 {
+	margin: 20px;
+}
+
+#table-1 #row-1 {
+	border-top: solid 1px blue;
+}
+
+@media screen and (max-width:719px) {
+	#main-2 #table-1 .row .column-1{
+		border-left: solid 1px blue;
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 30%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-2{
+		display: none;
+	}
+	#main-2 #table-1 .row .column-3{
+		display: none;
+	}
+	#main-2 #table-1 .row .column-4{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 70%;
+		padding: 10px;
+	}
+}
+
+
+@media screen and (min-width:1080px) {
+	#main-2 #table-1 .row .column-1{
+		border-left: solid 1px blue;
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 10%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-2{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 20%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-3{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 30%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-4{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 40%;
+		padding: 10px;
+	}
+} 
+
+@media screen and (max-width:1079px) and (min-width:720px) {
+	#main-2 #table-1 .row .column-1{
+		border-left: solid 1px blue;
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 20%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-2{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 30%;
+		padding: 10px;
+	}
+	#main-2 #table-1 .row .column-3{
+		display: none;
+	}
+	#main-2 #table-1 .row .column-4{
+		border-right: solid 1px blue;
+		border-bottom: solid 1px blue;
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
 }
