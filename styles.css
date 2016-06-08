@@ -96,51 +96,61 @@ p {
 	color: red;
 }
 
-/* Body CSS*/
+/* Body Main1 CSS*/
 #main-1 {
-	background: green;
-	max-width: 15vw;
-	margin: 5vw;
-	display: block;
+	width: 25vw;
 }
 
-#main-1 a{
+#menu {
+	background: green;
+	max-width: 15vw;
+	min-width: 120px;
+	margin: 5vw;
+	display: inline-block;
+	border: 
+}
+
+#menu a{
 	text-decoration: none;
 	color: white;
 	display: block;
 	padding: 15px;
 }
-#main-1 ul {
+#menu ul {
 	margin: 0;
 	padding: 0;
 	max-width: 300px;
 }
-#main-1 ul li {
+#menu ul li {
 	display: inline-block;
 }
-#main-1 ul li:hover {background: #555;}
-#main-1 ul li:hover ul {display: inline-block;}
+#menu ul li:hover {background: #555;}
+#menu ul li:hover ul {display: inline-block;}
 .list {
 	float: left;
 }
-#main-1 ul li ul {
+#menu ul li ul {
 	position: absolute;
 	max-width: 300px;
 	display: none;
 	background: #555;
 }
 
-#main-1 ul li ul li {
+#menu ul li ul li {
 	background: #555;
 	display: block;
 }
-#main-1 ul li ul li:hover {
+#menu ul li ul li:hover {
 	background: #666;
 }
-#main-1 ul li ul li a {
+#menu ul li ul li a {
 	display: block !important;
 }
-#main-1 ul li ul li a:hover {
+#menu ul li ul li a:hover {
 	background: #666;
 }
-
+/* Body Main2 CSS*/
+#main-2 {
+	max-width: 75vw;
+	border: solid 2px red;
+}
