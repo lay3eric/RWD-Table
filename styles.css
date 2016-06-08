@@ -99,7 +99,7 @@ p {
 /* Body Main1 CSS*/
 #main-1 {
 	width: 20%;
-	min-width: 120px;
+	min-width: 150px;
 	border: solid 1px red;
 	float: left;
 }
@@ -107,10 +107,10 @@ p {
 #menu {
 	background: green;
 	max-width: 100%;
-	min-width: 120px;
-	margin: 20px auto;
-	display: inline-block;
+	width: 130px;
+	display: block;
 	border: 1px solid black;
+	margin: 20px auto;
 }
 
 #menu a{
@@ -152,7 +152,7 @@ p {
 #menu ul li ul li a:hover {
 	background: #666;
 }
-/* Body Main2 CSS*/
+/* Body Main2-Table1 CSS*/
 #main-2 {
 	width: 80%;
 	min-width: 480px;
@@ -254,3 +254,5 @@ p {
 		padding: 10px;
 	}
 }
+
+/* Body Main2-Table2 CSS*/
